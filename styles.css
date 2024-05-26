@@ -167,14 +167,14 @@ nav{
     flex-wrap: wrap;
 }
 .play-video{
-    flex-basis: 69%;
+    flex-basis: 65%;
 }
 .right-sidebar{
     flex-basis: 30%;
 }
 .play-video video{
     width: 100%;
-    height: 50%;
+    height: 20%;
 }
 .side-video-list{
     display: flex;
@@ -253,4 +253,120 @@ height: 200px;
     outline: 0;
     border-radius: 4px;
     cursor: pointer;
+}
+.comments{
+    position: static;
+    text-align: center;
+    margin-top: 200px;
+  
+}
+.profile-container{
+    text-align: center;
+    margin: 20px;
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-name{
+font-size: 14px;
+margin-top: 10px;
+}
+header{
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header input{
+padding: 5px;
+border: none;
+border-radius: 3px;
+}
+main{
+    display: flex;
+    padding: 20px;
+}
+aside{
+    width: 20%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.channel-list{
+    list-style: none;
+    padding: 0;
+}
+.channel{
+    padding: 10px;
+    cursor: pointer;
+}
+.channel:hover{
+    background-color: #f0f0f0;
+}
+.video-feed{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+   padding: 20px;
+}
+.video{
+    color: #5a5a5a;
+    font-size: 13px;
+    
+}
+.video a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+.video img{
+    width: 220px;
+    height: 150px;
+    border-radius: 5px;
+}
+.playlis-info{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.channel-info{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.channel-avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.profile-avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.profile-details h2{
+    margin: 0;
+}
+.profile-details p{
+    margin: 5px 0;
 }
